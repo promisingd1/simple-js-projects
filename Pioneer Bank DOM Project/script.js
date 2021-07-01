@@ -1,7 +1,7 @@
 // Login Button Event Handler
 const loginBtn = document.getElementById('login');
 
-loginBtn.addEventListener('click', function(){
+loginBtn.addEventListener('click', function () {
 	const loginArea = document.getElementById('login-area');
 	loginArea.style.display = 'none';
 
@@ -21,7 +21,7 @@ depositBtn.addEventListener('click', function () {
 	updateNumber('currentBalance', depositNumber);
 	document.getElementById('depositAmount').value = '';
 });
-	
+
 
 // Withdraw Button Event Handler
 const withDrawBtn = document.getElementById('addWithdraw');
